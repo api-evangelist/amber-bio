@@ -1,8 +1,17 @@
 aid: amber-bio
 name: Amber Bio
-description: 'Amber Bio is a company surfaced as a portfolio company of playground-global and added to
-  the API Evangelist network as a stub for enrichment. Sector: engineered-biology. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Amber Bio is a San Francisco biotechnology company developing an RNA-based
+  gene-editing platform capable of making multi-kilobase edits — rewriting thousands
+  of bases on a single RNA strand in one step — to reach previously undruggable patient
+  populations. Because edited RNA eventually degrades in the body, the approach is
+  designed to be safer and reversible compared with permanent DNA editing. The platform
+  pairs multi-kilobase RNA writing with AI foundation models to target diverse pathogenic
+  variants across patients with a single product, initially focused on ophthalmology
+  and central nervous system diseases. Founded by CRISPR-field researchers from the
+  Broad Institute and UC Berkeley (co-founder and CTO Basem Al-Shayeb, advised by Nobel
+  Laureate Jennifer Doudna), Amber Bio launched in 2023 with a $26M seed round co-led
+  by Playground Global and Andreessen Horowitz. It has no public developer API; this
+  API Evangelist profile tracks the company as a portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/amber-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://cdn.prod.website-files.com/6245f65e49aca16254e8bad8/624dc97fcb2b8c6590085e6f_OPG.png
 tags:
 - Company
 - Engineered Biology
+- RNA Editing
+- Gene Editing
+- Genetic Medicine
+- Biotechnology
+- CRISPR
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/amber-bio-domain-security.yml
 - type: Website
   url: https://www.amber.bio/
+- type: Careers
+  url: https://www.amber.bio/careers
+- type: News
+  url: https://www.amber.bio/#news
+- type: Team
+  url: https://www.amber.bio/#team
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
